@@ -1,0 +1,1 @@
+"# closecompanion_ghana" 
