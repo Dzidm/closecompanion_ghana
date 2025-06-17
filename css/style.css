@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: none;
+}
+
+.navbar{
+    display: flex;
+    padding: 30px;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    font-weight: 500;
+    color: rgb(43, 3, 43);
+}
+
+.logo{
+    /* width: 120px; */
+    color: rgb(80, 7, 80);
+    font-weight: bold;
+    border: solid;
+    padding: 10px;
+    border-width: 6px;
+    border-radius: 12px;
+}
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome{
+    height: 70vh;
+    max-width: 70%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    line-height: 50px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.welcome h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 50px;
+    color: transparent;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px 0;
+    background-image: linear-gradient(rgb(80, 7, 80));
+    animation: backcolor 5s linear infinite alternate;
+    /* transform: translate(-50%, -50%); */
+    /* -webkit-text-stroke: 1px rgb(124, 37, 124); */
+}
+
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.welcome p{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 50px 0 50px;
+    color: rgb(43, 3, 43);
+}
+
+.about{
+    max-width: 100%;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 12px;
+    line-height: 42px;
+    align-content: center;
+    background-color: rgb(253, 225, 253);
+}
+
+.about2{
+    margin-left: 400px;
+}
+
+.about h1{
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(58, 10, 58);
+}
+
+.about p{
+    font-size: 1.5rem;
+    padding: 0 50px 0 50px;
+    color: rgb(43, 3, 43);
+}
+
+.services{
+    max-width: 100%;
+    align-content: center;
+    padding: 50px;
+    margin-bottom: 100px;
+    line-height: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.services h1{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(58, 10, 58);
+}
+
+.services h2{
+    font-size: 2rem;
+    padding: 10px;
+    color: rgb(58, 10, 58);
+}
+
+.services ul{
+    font-size: 1.5rem;
+    color: rgb(43, 3, 43);
+}
+
+.faqs{
+    max-width: 100%;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 12px;
+    color: rgb(58, 10, 58);
+    background-color: rgb(253, 225, 253);
+}
+
+.accordian{
+    width: 750px;
+    padding: 10px;
+    margin: 60px auto;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.accordian h3{
+    padding: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.accordian p{
+    max-height: 0;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 1.2rem;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+
+.accordian:hover p {
+    max-height: 200px; /* Adjust to fit your content */
+    padding: 10px 0;
+}
+
+.terms{
+    max-width: 100%;
+    padding: 70px;
+    border-radius: 12px;
+    color: rgb(58, 10, 58);
+    background-color: rgb(253, 225, 253);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.terms p{
+    font-size: 1.3rem;
+    color: red;
+    padding: 10px;
+}
+
+.accordian li{
+    font-size: 1.2rem;
+    line-height: 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordian:hover li {
+    max-height: 200px; /* Adjust to fit your content */
+    padding: 10px 0;
+}
+
+.clients{
+    padding: 50px;
+    margin: 50px;
+    border-radius: 12px;
+    color: rgb(58, 10, 58);
+    background-color: rgb(253, 225, 253);
+}
+
+.clients p{
+    font-size: 1.3rem;
+    color: red;
+    padding: 10px;
+}
+
+.contact-section {
+        padding: 20px;
+        max-width: 900px;
+        margin: 50px auto;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        color: rgb(58, 10, 58);
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    .schedule-section iframe {
+      border: 0;
+      width: 100%;
+      height: 500px;
+      margin-top: 20px;
+    }
+
+    .contact-section a {
+      color: #fbbf24;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-section a:hover {
+      text-decoration: underline;
+    }
