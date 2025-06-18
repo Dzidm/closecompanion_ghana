@@ -252,10 +252,6 @@
         line-height: 30px;
     }
 
-    footer .inside{
-        width: 500px;
-    }
-
     footer a{
         text-decoration: none;
         color: #fbbf24;
@@ -350,6 +346,18 @@
     .about, .services, .faqs, .terms, .clients, .contact-section {
         padding: 20px;
         margin: 20px;
+        overflow: hidden;
+    }
+
+    .about2 img {
+        width: 100%;
+        object-fit: contain;
+        margin: 10px auto;
+}
+
+
+     body {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 
     .accordian {
@@ -390,16 +398,16 @@
 
     .footer-container {
         flex-direction: column;
-        align-items: center;
         gap: 20px;
     }
 
-    footer .inside {
-        width: 100%;
-    }
 
     .footer-line {
         width: 90%;
+    }
+
+     body {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 }
 
