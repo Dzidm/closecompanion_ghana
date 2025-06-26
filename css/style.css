@@ -465,29 +465,29 @@
     }
 
     .welcome h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         text-align: center;
         color: rgb(58, 10, 58);
     }
 
     .welcome p {
         height: auto;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 40px;
         padding: 0 20px 0 20px;
     }
 
     .about h1, .services h1, .services h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .about p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         padding: 0 20px 0 20px;
     }
 
     .services ul, .accordian p, .terms p, .clients p, .accordian li, .accordian h3 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 30px;
     }
     .faqs h1, .terms h1, .clients h1 {
@@ -495,14 +495,14 @@
     }
 
     .contact-section h3, .contact-section p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 32px;
     }
 
     .footer-container {
         display: flex;
         flex-direction: column;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 30px;
         gap: 20px;
 
