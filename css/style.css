@@ -323,22 +323,26 @@
     }
 
     .accordian {
-        width: 90%;
+        width: auto;
     }
 
     .accordian p, .accordian h3, .accordian li, .terms p, .clients p {
         font-size: 1.5rem;
-        line-height: 32px;
+        line-height: 35px;
     }
 
     .contact-section {
         font-size: 1.5rem;
-        line-height: 32px;
+        line-height: 35px;
         padding: 0 40px 0 40px;
     }
 
     .footer-container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        line-height: 35px;
+        gap: 20px;
     }
 
     body {
@@ -419,15 +423,24 @@
     }
 
     .accordian {
-        width: 90%;
+        width: auto;
         padding: 20px;
         margin: 30px auto;
+        line-height: 35px;
     }
 
     .contact-section {
         font-size: 1.5rem;
         line-height: 32px;
         padding: 0 40px 0 40px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        line-height: 30px;
+        gap: 20px;
     }
 }
 
@@ -439,7 +452,7 @@
     }
 
     .nav-links a {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .logo {
@@ -458,37 +471,38 @@
     }
 
     .welcome p {
-        font-size: 1.3rem;
-        line-height: 40px;
-        padding: auto;
         height: auto;
-
+        font-size: 1.4rem;
+        line-height: 40px;
+        padding: 0 20px 0 20px;
     }
 
     .about h1, .services h1, .services h2 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .about p {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         padding: 0 20px 0 20px;
     }
 
     .services ul, .accordian p, .terms p, .clients p, .accordian li, .accordian h3 {
         font-size: 1.4rem;
+        line-height: 30px;
     }
     .faqs h1, .terms h1, .clients h1 {
         font-size: 1.3rem;
     }
 
     .contact-section h3, .contact-section p {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         line-height: 32px;
     }
 
     .footer-container {
+        display: flex;
         flex-direction: column;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         line-height: 30px;
         gap: 20px;
 
